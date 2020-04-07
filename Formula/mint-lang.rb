@@ -1,4 +1,4 @@
-VERSION = "0.8.0".freeze
+VERSION = "0.9.0".freeze
 
 class MintLang < Formula
   desc "Refreshing programming language for the front-end web"
@@ -7,16 +7,16 @@ class MintLang < Formula
   stable do
     if OS.mac?
       url "https://github.com/mint-lang/mint/releases/download/#{VERSION}/mint-#{VERSION}-osx"
-      sha256 "da62d6561d90e7e39442d934e1469e11bc57ee7d1f59c6e9836f9b20b4e747c2"
+      sha256 "2f617211c155ca6d6b107e53001542a4b0fb88e8367d2a491fbf48fbcc91355e"
     elsif OS.linux?
       url "https://github.com/mint-lang/mint/releases/download/#{VERSION}/mint-#{VERSION}-linux"
-      sha256 "a9c022c97cc468067258022068101ee24196f92002ce24aa405ab5408080f9c6"
+      sha256 "a6a7ab69e2c4a9ef9f60a81f807eac24aed4a62408a6a6a47a6a66f2c6728187"
     end
   end
 
   devel do
     url "https://github.com/mint-lang/mint/archive/#{VERSION}.tar.gz"
-    sha256 "c558b603c420d582c82e669edbf41fab2b2e66d6badd921d9e4d71afea521a61"
+    sha256 "0486ee56cd36a09a88876759f3997aa7d52a35e48330d7fa91e6a938c165a2ed"
   end
 
   head do
