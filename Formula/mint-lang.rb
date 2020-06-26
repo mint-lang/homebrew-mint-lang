@@ -11,15 +11,9 @@ end
 class MintLang < Formula
   desc "Refreshing programming language for the front-end web"
   homepage "https://www.mint-lang.com/"
-
-  stable do
-    url "https://github.com/mint-lang/mint/releases/download/#{VERSION}/mint-#{VERSION}-#{OS}"
-    sha256 SHA256
-  end
-
-  head do
-    url "https://github.com/mint-lang/mint.git"
-  end
+  url "https://github.com/mint-lang/mint/releases/download/#{VERSION}/mint-#{VERSION}-#{OS}"
+  sha256 SHA256
+  head "https://github.com/mint-lang/mint.git"
 
   depends_on "crystal"
 
