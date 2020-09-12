@@ -7,9 +7,18 @@
 After you install Homebrew, run the following command:
 
 ```
-brew tap homebrew-community/mint
+brew tap mint-lang/homebrew-mint-lang
 brew install mint-lang
 ```
+
+Also, if you have previously used the homebrew-community version you must 
+
+```
+brew untap homebrew-community/mint
+```
+
+before installing this new official version.
+
 
 ## License
 
