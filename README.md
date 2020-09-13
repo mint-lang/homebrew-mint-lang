@@ -7,7 +7,7 @@
 After you install Homebrew, run the following command:
 
 ```
-brew tap mint-lang/homebrew-mint-lang
+brew tap mint-lang/mint-lang
 brew install mint-lang
 ```
 
