@@ -22,8 +22,8 @@ class MintLang < Formula
       bin.install buildpath/"mint-#{VERSION}-#{OS}" => "mint"
     else
       system "shards", "install"
-      system "crystal", "build", "src/mint.cr", "-o", "mint", "-p", "--error-trace"
-      bin.install "mint"
+      system "shards", "build", "--error-trace", "--progress"
+      bin.install "bin/mint"
     end
   end
 
