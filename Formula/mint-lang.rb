@@ -1,12 +1,12 @@
-VERSION = "0.13.1".freeze
+VERSION = "0.14.0".freeze
 
 case
 when OS.mac?
   OS = "osx".freeze
-  SHA256 = "e09164f33cdce898c99b4faea2a4d31d4d21a69ac310905dbd6263f3732d1e27".freeze
+  SHA256 = "04f3468e8d8d2b6c970e5033375c7a800a5a7ae6010324108b4607db89632d54".freeze
 when OS.linux?
   OS = "linux".freeze
-  SHA256 = "f4264e018a1ee2be3bc9bc84e74e0f198f4258afe14aa1d7bd44edb930307c35".freeze
+  SHA256 = "3f40f3666b013fef6d42be0e50ed733ba72dac486ab3ccf1fd7b44b26cbc3ebe".freeze
 end
 
 class MintLang < Formula
