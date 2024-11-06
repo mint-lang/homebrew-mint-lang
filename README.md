@@ -1,3 +1,7 @@
+This repository is archived and no longer maintained (the last version supported is `0.19.0`). 
+
+Use other ways of installing Mint: https://mint-lang.com/install.
+
 # Homebrew Mint
 
 [Homebrew](https://github.com/Homebrew) tap for the [Mint](https://github.com/mint-lang/mint) programming language
